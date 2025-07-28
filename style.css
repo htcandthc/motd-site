@@ -178,6 +178,7 @@ footer {
   text-decoration: none;
   color: var(--body-text-color);
   padding: 0.25rem 0.5rem;
+  font-size: small;
 }
 
 .navbar a:hover,
