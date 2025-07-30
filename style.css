@@ -4,11 +4,13 @@
 }
 
 :root {
+  --secondary-color: #564f43;
   --primary-color: #f8e9d3;
   --splash-color: #fff171;
   --splash-rot: 15deg;
   --body-text-color: #525252;
   --highlight-color: #b19b21;
+  --button-color: #EAE5E1;
 }
 
 @keyframes pulse {
@@ -119,6 +121,7 @@ footer {
   text-align: left;
   box-sizing: border-box;
   overflow: auto;
+  border-bottom: 2px dashed var(--body-text-color);
 }
 
 .rule-header {
@@ -184,4 +187,22 @@ footer {
 .navbar a:hover,
 .navbar a:focus {
   color: var(--highlight-color);
+}
+
+.steamlink-button {
+  font-family: "TF2 Build";
+  text-decoration: none;
+  color: var(--button-color);
+  border: 3px solid var(--button-color);
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  transition: transform 0.2s;
+}
+
+.steamlink-button:hover {
+	transform: translate(0, -2px);
 }
