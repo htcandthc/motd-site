@@ -7,7 +7,10 @@ const SPLASHES = [
     "Pool's closed!", "Buttsecks!", "Check out the maps!",
     "Free 2 Play!", "Engineering a website!", "Check out the frag comp!",
     "script.js", "index.html", "style.css", "bossbaby.bossbaby",
-    "Rush B!", "Featuring Gordon Freeman!", "Look it's Gordon!"
+    "Rush B!", "Featuring Gordon Freeman!", "Look it's Gordon!",
+    "Dang!", "rm -rf", "Delete System32!", "Better than sex!",
+    "I can't believe it's not causal!", "Quit smoking!", "Read this!",
+    "Don't read this!", "Hat Simulator 2007", "Med Down!"
 ];
 const splashElement = document.getElementById("splash");
 
