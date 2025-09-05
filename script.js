@@ -10,7 +10,10 @@ const SPLASHES = [
     "Rush B!", "Featuring Gordon Freeman!", "Look it's Gordon!",
     "Dang!", "rm -rf", "Delete System32!", "Better than sex!",
     "I can't believe it's not causal!", "Quit smoking!", "Read this!",
-    "Don't read this!", "Hat Simulator 2007", "Med Down!"
+    "Don't read this!", "Hat Simulator 2007", "Med Down!",
+    "I'm watching you.", "EGHAUHAHAHAH! BOO!", "Check out the events!",
+    "Behold mortals!", "Merasmus has come!", "Welcome to your DOOM!",
+    "Check out TF2 Classic!"
 ];
 const splashElement = document.getElementById("splash");
 
